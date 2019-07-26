@@ -1,0 +1,36 @@
+{
+  "name": "secure-storage",
+  "version": "0.0.1",
+  "description": "Web service providing SRP based encrypted data storage ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsteff/secure-storage.git"
+  },
+  "keywords": [
+    "SRP",
+    "Zero",
+    "Knowledge",
+    "Proof",
+    "webservice"
+  ],
+  "author": "Stefan Fixl (fsteff)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsteff/secure-storage/issues"
+  },
+  "homepage": "https://github.com/fsteff/secure-storage#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.3.0",
+    "firebase-functions": "^3.2.0",
+    "thinbus-srp": "^1.8.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.3.0",
+    "standard": "^13.1.0"
+  }
+}
